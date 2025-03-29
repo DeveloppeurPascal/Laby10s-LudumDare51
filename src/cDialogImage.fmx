@@ -1,0 +1,19 @@
+object DialogImage: TDialogImage
+  HitTest = False
+  Size.Width = 846.000000000000000000
+  Size.Height = 433.000000000000000000
+  Size.PlatformDefault = False
+  OnResized = FrameResized
+  object imgBackground: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Center
+    Locked = True
+    HitTest = False
+    Size.Width = 166.000000000000000000
+    Size.Height = 154.000000000000000000
+    Size.PlatformDefault = False
+    WrapMode = Original
+  end
+end

@@ -1,0 +1,22 @@
+object TitleImage: TTitleImage
+  HitTest = False
+  Size.Width = 320.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  OnResized = FrameResized
+  inline TitleText: TOlfFMXTextImageFrame
+    Align = Center
+    Locked = True
+    HitTest = False
+    Size.Width = 208.000000000000000000
+    Size.Height = 240.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ShadowEffect1: TShadowEffect
+    Distance = 3.000000000000000000
+    Direction = 45.000000000000000000
+    Softness = 0.300000011920929000
+    Opacity = 0.600000023841857900
+    ShadowColor = claBlack
+  end
+end

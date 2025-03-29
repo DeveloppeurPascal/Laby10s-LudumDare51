@@ -1,0 +1,2 @@
+inherited GameOverWinScene: TGameOverWinScene
+end

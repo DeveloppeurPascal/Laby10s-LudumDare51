@@ -1,0 +1,97 @@
+inherited HomeScene: THomeScene
+  Size.Width = 939.000000000000000000
+  Size.Height = 617.000000000000000000
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 939.000000000000000000
+    Size.Height = 447.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnResized = VertScrollBox1Resized
+    Viewport.Width = 939.000000000000000000
+    Viewport.Height = 447.000000000000000000
+    object FlowLayout1: TFlowLayout
+      Align = Top
+      Size.Width = 939.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Center
+      JustifyLastLine = Center
+      FlowDirection = LeftToRight
+      inline btnPlay: TButtonText
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 122.500000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 218.000000000000000000
+        Size.Height = 104.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnPlayClick
+      end
+      inline btnScores: TButtonText
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 360.500000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 218.000000000000000000
+        Size.Height = 104.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnScoresClick
+      end
+      inline btnOptions: TButtonText
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 598.500000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 218.000000000000000000
+        Size.Height = 104.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnOptionsClick
+      end
+      inline btnCredits: TButtonText
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 241.500000000000000000
+        Position.Y = 134.000000000000000000
+        Size.Width = 218.000000000000000000
+        Size.Height = 104.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnCreditsClick
+      end
+      inline btnQuit: TButtonText
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 479.500000000000000000
+        Position.Y = 134.000000000000000000
+        Size.Width = 218.000000000000000000
+        Size.Height = 104.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnQuitClick
+      end
+    end
+  end
+  inline TitleImage1: TTitleImage
+    Align = Top
+    HitTest = False
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 919.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

@@ -1,0 +1,7 @@
+inherited SceneBackground: TSceneBackground
+  HitTest = False
+  OnResized = FrameResized
+  object Glyph1: TGlyph
+    Align = Center
+  end
+end
