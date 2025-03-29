@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project Version="1.0">
-  <Title>Your Project Name</Title>
-  <Summary>sample projects</Summary>
+  <Title>Laby 10s</Title>
+  <Summary>Laby 10s video game developer documentation.</Summary>
   <Author>Patrick PREMARTIN</Author>
   <Email>patrick@premartin.fr</Email>
-  <Copyright>(c) xxxx-2025 PATRICK PREMARTIN</Copyright>
+  <Copyright>(c) 2022-2025 PATRICK PREMARTIN</Copyright>
   <Comment/>
   <Language>2057</Language>
   <Charset>1</Charset>
   <HeaderHtml>&lt;%TopicTitle%&gt;</HeaderHtml>
-  <FooterHtml>&lt;a href=" xxx" target="_blank"&gt; xxx&lt;/a&gt; (c) xxxx-2025 &lt;a href="https://patrick.premartin.fr" target="_blank"&gt;Patrick PREMARTIN&lt;/a&gt; - Powered by &lt;a href="https://devjetsoftware.com/products/documentation-insight/" target="_blank"&gt;DocInsight&lt;/a&gt;</FooterHtml>
+  <FooterHtml>&lt;a href="https://laby10s.gamolf.fr" target="_blank"&gt;Laby 10s&lt;/a&gt; (c) 2022-2025 &lt;a href="https://patrick.premartin.fr" target="_blank"&gt;Patrick PREMARTIN&lt;/a&gt; - Powered by &lt;a href="https://devjetsoftware.com/products/documentation-insight/" target="_blank"&gt;DocInsight&lt;/a&gt;</FooterHtml>
   <CustomDefines/>
   <ShowImplementationSection>false</ShowImplementationSection>
   <ShowPrivateMembers>false</ShowPrivateMembers>
@@ -19,7 +19,9 @@
   <FileNamePolicy>0</FileNamePolicy>
   <CompilerVersion>27</CompilerVersion>
   <TargetPlatform>0</TargetPlatform>
-  <Sources/>
+  <Sources>
+    <Source>.\Laby10s.dpr</Source>
+  </Sources>
   <Outputs>
     <Output Type="HTML">
       <Active>true</Active>
@@ -27,7 +29,7 @@
     </Output>
     <Output Type="CHM">
       <Active>true</Active>
-      <OutputFileName>..\YourProjectName.chm</OutputFileName>
+      <OutputFileName>..\Laby10s.chm</OutputFileName>
     </Output>
     <Output Type="MSHELP2">
       <Active>false</Active>
