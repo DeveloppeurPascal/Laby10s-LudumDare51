@@ -39,7 +39,7 @@ J'utilise régulièrement l'outil [DocInsight](https://devjetsoftware.com/produc
 
 L'export de la documentation est fait en HTML par [DocInsight](https://devjetsoftware.com/products/documentation-insight/) ou [PasDoc](https://pasdoc.github.io) vers le dossier /docs du dépôt. Vous y avez aussi [accès en ligne](https://developpeurpascal.github.io/Laby10s-LudumDare51) grâce à l'hébergement offert par GitHub Pages.
 
-D'autres informations (tutoriels, articles, vidéos, FAQ, présentations et liens) sont disponibles sur [le devlog du projet](https://developpeur-pascal.fr/laby10s.html).
+D'autres informations (tutoriels, articles, vidéos, FAQ, présentations et liens) sont disponibles sur [le site web du projet](https://laby10s.gamolf.fr/) ou [le devlog du projet](https://developpeur-pascal.fr/laby10s.html).
 
 Si vous avez besoin d'explications ou d'aide pour comprendre ou utiliser certaines parties de ce projet dans le vôtre, n'hésitez pas à [me contacter](https://developpeur-pascal.fr/nous-contacter.php). Je pourrai soit vous orienter vers une ressource en ligne, soit vous proposer une assistance sous forme de prestation payante ou gratuite selon les cas. Vous pouvez aussi me faire signe à l'occasion d'une conférence ou pendant une présentation en ligne.
 
